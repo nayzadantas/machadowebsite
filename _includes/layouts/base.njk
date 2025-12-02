@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./output.css"/>
-  <title>Document</title>
+  <title>Machado.mov</title>
 </head>
 <body>
-  <h1>Hello world</h1>
-  <div class="grid grid-cols-2 gap-2">
-    <p>Alo alo</p>
-    <p>Hola Hola</p>
-  </div>
+  {% include 'partials/_header.html' %}
+
+  {{ content | safe }}
+
+  {% include 'partials/_footer.html' %}
 </body>
 </html>
