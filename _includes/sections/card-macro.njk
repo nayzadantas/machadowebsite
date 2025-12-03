@@ -1,0 +1,14 @@
+{% macro card(srcImage, title, description, year, place)%}
+<div class="backdrop-filter-[blur(10px)] rounded-3xl overflow-hidden text-white border border-solid border-gray-500">
+  <img src="{{srcImage}}" alt="Imagem do projeto">
+  <div class="px-4 py-3">
+    <h3 class="uppercase text-base">{{title}}</h3>
+    <p class="font-mono text-xs">{{description}}</p>
+    <hr class="border border-gray-500 h-px">
+    <div class="flex justify-between items-center font-mono text-xs text-gray-500">
+      <p>{{year}}</p>
+      <p>{{place}}</p>
+    </div>
+  </div>
+</div>  
+{% endmacro %}
