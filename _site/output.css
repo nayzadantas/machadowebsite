@@ -172,6 +172,10 @@
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
+  }
+  .h-31 {
+    height: calc(var(--spacing) * 31);
+  }
   .w-full {
     width: 100%;
   }
@@ -181,8 +185,14 @@
   .items-center {
     align-items: center;
   }
+  .justify-around {
+    justify-content: space-around;
+  }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -198,6 +208,9 @@
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
+  }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
   }
   .text-red-500 {
     color: var(--color-red-500);
