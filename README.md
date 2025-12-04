@@ -1,2 +1,7 @@
-# machadowebsite
-Website for Machado.mov company
+# Machado.mov website
+Website para a empresa de vídeo marketing **Machado.mov**
+
+### Tecnologias utilizadas
+
+Framework Eleventy\
+Tailwind CSS
